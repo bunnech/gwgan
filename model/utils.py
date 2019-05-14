@@ -22,7 +22,7 @@ def get_args():
     # general arguments
     parser.add_argument('--num_epochs', type=int, default=200)
     parser.add_argument('--num_iter', type=int, default=10000)
-    parser.add_argument('--id', type=str)
+    parser.add_argument('--id', type=str, default='')
 
     # arguments to choose dataset (mnist, fmnist, cifar-gray etc.)
     parser.add_argument('--data', default='mnist')

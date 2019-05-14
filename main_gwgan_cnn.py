@@ -40,7 +40,7 @@ cuda = args.cuda
 channels = args.n_channels
 id = args.id
 
-model = 'gwgan_{}_eps_{}_tv_{}_procrustes_{}_ngen_{}_channels_{}_id_{}' \
+model = 'gwgan_{}_eps_{}_tv_{}_procrustes_{}_ngen_{}_channels_{}_{}' \
         .format(args.data, epsilon, lam, beta, ngen, channels, id)
 save_fig_path = 'out_' + model
 if not os.path.exists(save_fig_path):

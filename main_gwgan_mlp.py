@@ -59,10 +59,10 @@ train_iter = args.num_iter
 modes = args.modes
 
 if l1_reg:
-    model = 'gwgan_gaussian_l1_{}_adversary_{}_id_{}'\
+    model = 'gwgan_gaussian_l1_{}_adversary_{}_{}'\
      .format(modes, learn_c, args.id)
 else:
-    model = 'gwgan_gaussian_{}_adversary_{}_id_{}'\
+    model = 'gwgan_gaussian_{}_adversary_{}_{}'\
      .format(modes, learn_c, args.id)
 
 simulation = FUNCTION_MAP[modes]
