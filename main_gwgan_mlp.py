@@ -59,8 +59,8 @@ train_iter = args.num_iter
 modes = args.modes
 
 if l1_reg:
-    model = 'gwgan_gaussian_l1_{}_adversary_{}_lam_{}_id_{}'\
-     .format(modes, learn_c, lam, args.id)
+    model = 'gwgan_gaussian_l1_{}_adversary_{}_id_{}'\
+     .format(modes, learn_c, args.id)
 else:
     model = 'gwgan_gaussian_{}_adversary_{}_id_{}'\
      .format(modes, learn_c, args.id)
