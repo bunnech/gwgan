@@ -144,10 +144,10 @@ for it in range(train_iter):
     X_mb = data[start_idx:start_idx + batch_size, :]
     y_mb = y[start_idx:start_idx + batch_size]
 
-    # sample two random numbers z from Z
+    # sample points from latent space
     z = sample_z(batch_size, z_dim)
 
-    # sample two data points from real data mini batch
+    # get data mini batch
     x = torch.from_numpy(X_mb[:batch_size, :])
     y_s = y_mb[:batch_size]
 
