@@ -9,7 +9,7 @@ If you use this code for your research, please cite our paper.
 @inproceedings{bunne2019,
   title={{Learning Generative Models across Incomparable Spaces}},
   author={Bunne, Charlotte and Alvarez-Melis, David and Krause, Andreas and Jegelka, Stefanie},
-  year={2019}
+  year={2019},
   booktitle={International Conference on Machine Learning (ICML)},
   volume={97},
 }
